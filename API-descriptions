@@ -1,0 +1,11 @@
+POST /integration/jobs/{jobId}/transformations/{transformationId}/execute
+Execute a specific transformation on a job.
+
+GET /integration/jobs/{jobId}/results/{format}
+Retrieve transformation results in a specific format.
+
+POST /integration/uploads/{uploadId}/validate
+Validate uploaded data.
+
+DELETE /integration/uploads/{uploadId}/errors/{errorId}
+Remove a specific validation error.
